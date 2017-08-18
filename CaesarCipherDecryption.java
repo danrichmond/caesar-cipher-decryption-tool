@@ -22,6 +22,8 @@ public class CaesarCipherDecryption {
 		// Read sentence in from user and split characters into an array
 		System.out.print("Enter encrypted string: ");
 		String str = in.nextLine();
+		str = str.toLowerCase();
+		System.out.println(str);
 		char charArray[] = new char[1000]; // Make bigger if necessary
 		str.getChars(0, str.length(), charArray, 0);
 
