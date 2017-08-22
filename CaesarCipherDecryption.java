@@ -26,6 +26,7 @@ public class CaesarCipherDecryption {
 		System.out.println(str);
 		char charArray[] = new char[1000]; // Make bigger if necessary
 		str.getChars(0, str.length(), charArray, 0);
+		in.close();
 
 		// Find all possible shifts
 		for(int shifts = 0; shifts < 26; shifts++) {
