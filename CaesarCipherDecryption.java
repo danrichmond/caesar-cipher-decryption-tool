@@ -20,7 +20,7 @@ public class CaesarCipherDecryption {
 				't', 'u', 'v', 'w', 'x', 'y', 'z'));		
 		
 		// Read sentence in from user and split characters into an array
-		System.out.print("Enter encrypted string: ");
+		System.out.print("Enter string: ");
 		String str = in.nextLine();
 		str = str.toLowerCase();
 		System.out.println(str);
